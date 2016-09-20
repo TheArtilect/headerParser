@@ -4,8 +4,16 @@ block content
   h1= title
   h3 by #{author}
   h5 Welcome to #{title}
-  p This is a request header parser microservice.  Click on the button below, and a JSON of your browser IP address, language and operating system will be returned.  
+  p This is a request header parser microservice.  Click on the button below, and a JSON of your browser IP address, language and operating system will be returned.
   button(onclick="clickIt()") Click here
+  
+  p OR
+  p Point your browser to the link below:
+  code(id="example-natural", class="example") https://header-parser-ia.herokuapp.com/header
+  br
+  br
+  
+  
 
   h3 Example Output:
   code(id="example-output" class="example") { "ipaddress" : "127.0.0.0", "language":"en-US", "software":"X11; Linux x86_64" }
