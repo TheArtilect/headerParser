@@ -14,6 +14,7 @@ router.get('/', function(req, res) {
   var lang = header["accept-language"].split(",")[0]
 
   var ip = header['x-forwarded-for']
+  console.log(ip)
 
 
 
