@@ -1,7 +1,7 @@
 # Request Header Parser
 
 #### This repo is for an API project from freeCodeCamp's Back End Development Certification.
-
+Users visiting the site can receive a JSON output of their browser IP address, language, and operating system.
 
 
 ### Quick Start
